@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { FiSearch} from 'react-icons/fi';
-import { BsCartCheck} from 'react-icons/bs';
+import { FiShoppingCart ,FiSearch} from 'react-icons/fi';
 
 const Container = styled.div`
     height: 60px;
@@ -83,7 +82,7 @@ const Navbar = () => {
                     SIGN IN
                 </MenuItem>
                 <MenuItem>
-                    SACOLA
+                    <FiShoppingCart size={25}/>
                 </MenuItem>
             </Right>
         </Wrapper>    
